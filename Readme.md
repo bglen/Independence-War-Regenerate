@@ -2,6 +2,8 @@
 
 Independence War Regenerate is a third-part total remake of the orignial Independence War Deluxe space simulator, kin to the Black Mesa total remake for Half-Life.
 
+Want to help? Edit the wiki.
+
 ## License
 
 The MIT License (MIT)
