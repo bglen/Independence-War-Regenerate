@@ -4,19 +4,26 @@ var cockpitCamera : GameObject;
 var orbitCamera : GameObject;
 var orbitCameraObject : GameObject;
 
+//makes sure that you can only toggle cameras repeatedly if you hold the button down
+var lock : boolean = false;
+
 function Start () {
 cockpitCamera.camera.active = true;
 
 }
 
 function FixedUpdate () {
-
-	var cameraInput : float = Input.GetAxis("Switch Camera");
+	if(Input.GetKeyUp("tab")){
+		lock = false;
+	}
 	//var rotateScript = orbitCameraObject.GetComponent( "ArcBall" );
-	if(cameraInput == 1){
+	if(Input.GetKeyDown("tab")){
+		if(lock == false){
 		cockpitCamera.camera.active = !cockpitCamera.camera.active;
 		orbitCamera.camera.active = !orbitCamera.camera.active;
 		//rotateScript.active = !rotateScript.active;
+		}
+		lock = true;
 	}
 
 }

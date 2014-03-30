@@ -12,12 +12,12 @@ function Update () {
 	var yaw = Input.GetAxis("Yaw");
 	var strafe = Vector3(Input.GetAxis("Horizontal")*strafeSpeed*Time.deltaTime, Input.GetAxis("Vertical")*strafeSpeed*Time.deltaTime, 0);
 	
-	var power = Input.GetAxis("Power");
+	//var power = Input.GetAxis("Power");
 	
 	//Truespeed controls
 	
 	if (trueSpeed < 10 && trueSpeed > -3){
-		trueSpeed += power;
+		//trueSpeed += power;
 	}
 	if (trueSpeed > 10){
 		trueSpeed = 9.99;	

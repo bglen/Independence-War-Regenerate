@@ -64,7 +64,6 @@
      <Compile Include="Assets\PostProcesses2.0\Shafts\Shafts.cs" />
      <Compile Include="Assets\Scripts\BlinkingLights.cs" />
      <Compile Include="Assets\Scripts\MyScript.cs" />
-     <Compile Include="Assets\Scripts\player\BasicMovement.cs" />
      <Compile Include="Assets\Scripts\player\camera\ArcBall.cs" />
      <Compile Include="Assets\Scripts\player\ui\FPSDisplay.cs" />
      <Compile Include="Assets\Scripts\player\ui\LarsonScanner.cs" />

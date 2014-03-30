@@ -49,7 +49,7 @@
      <Compile Include="Assets\Detonator Explosion Framework\Sample Supporting Emitters\Detonator Spray Helper.js" />
      <Compile Include="Assets\Detonator Explosion Framework\TestScene\DetonatorTest.js" />
      <Compile Include="Assets\Pause Menu\PauseMenu.js" />
-     <Compile Include="Assets\Scripts\player\CurrentMovement.js" />
+     <Compile Include="Assets\Scripts\player\Movement.js" />
      <Compile Include="Assets\Scripts\player\camera\CameraHandler.js" />
      <Compile Include="Assets\Scripts\player\ui\GUIHandler.js" />
      <Compile Include="Assets\Scripts\player\ui\NavBall.js" />
