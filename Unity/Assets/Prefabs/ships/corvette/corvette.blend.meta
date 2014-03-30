@@ -4,10 +4,19 @@ ModelImporter:
   serializedVersion: 15
   fileIDToRecycleName:
     100000: //RootNode
+    100002: corvette
+    100004: missile_box
     400000: //RootNode
+    400002: corvette
+    400004: missile_box
     2300000: //RootNode
+    2300002: corvette
+    2300004: missile_box
     3300000: //RootNode
+    3300002: corvette
+    3300004: missile_box
     4300000: corvette
+    4300002: missile_box
     7400000: Default Take
     9500000: //RootNode
   materials:
@@ -28,7 +37,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: .100000001
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -43,8 +52,8 @@ ModelImporter:
     secondaryUVPackMargin: 4
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
-    normalImportMode: 0
+    splitTangentsAcrossUV: 0
+    normalImportMode: 1
     tangentImportMode: 1
   importAnimation: 1
   copyAvatar: 0
